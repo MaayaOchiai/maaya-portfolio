@@ -896,6 +896,17 @@ ul {
 /* ================================
    Contact Section
    ================================ */
+.google-form-wrap {
+    max-width: 640px;
+    margin: 0 auto;
+}
+
+.google-form-wrap iframe {
+    width: 100%;
+    height: 1098px;
+    border: none;
+}
+
 .contact-form {
     max-width: 640px;
     margin: 0 auto;
@@ -978,6 +989,30 @@ ul {
     border-radius: var(--radius-sm);
     text-align: center;
     font-size: 0.9rem;
+}
+
+/* ================================
+   Brand Note
+   ================================ */
+.brand-note {
+    padding: 40px 0;
+    background-color: var(--bg);
+    border-top: 1px solid var(--border);
+}
+
+.brand-note-title {
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: var(--text-muted);
+    margin-bottom: 10px;
+    letter-spacing: 0.05em;
+}
+
+.brand-note-text {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    line-height: 1.9;
+    max-width: 720px;
 }
 
 /* ================================
